@@ -21,4 +21,4 @@ plot
 
 setwd("C:/Users/stvnj/Desktop/Screenshots/Comparisons")
 
-ggsave("image.png", bg = "black", width = 2500, height = 2800, units = "px")
+ggsave("dave.png", bg = "black", width = 2500, height = 2800, units = "px")
