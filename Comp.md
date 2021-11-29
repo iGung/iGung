@@ -1,7 +1,7 @@
 library(worldfootballR)
 library(ggshakeR)
 
-data <- fb_player_scouting_report("https://fbref.com/en/players/7ba6d84e/David-de-Gea", pos_versus = "primary")
+data <- fb_player_scouting_report("https://fbref.com/en/players/5dcf3e90/Unai-Simon", pos_versus = "primary")
 
 plot <- plot_pizza(data = data, type = "single", template = "goalkeeper", 
                    colour_poss = "#41ab5d", colour_att = "#2171b5", season = "Last 365 Days", 
