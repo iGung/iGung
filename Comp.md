@@ -1,3 +1,6 @@
+library(worldfootballR)
+library(ggshakeR)
+
 data <- fb_player_scouting_report("https://fbref.com/en/players/5dcf3e90/Unai-Simon", pos_versus = "primary")
 
 plot <- plot_pizza(data = data, type = "single", template = "goalkeeper", 
